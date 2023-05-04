@@ -12,13 +12,14 @@ declare(strict_types = 1);
  * with this source code in the file LICENSE.
  */
 
-namespace Cache\Hierarchy\Tests;
+namespace Cache\Hierarchy\Tests\Acceptance;
 
 use Cache\Hierarchy\Tests\Helper\CachePool;
 use PHPUnit\Framework\TestCase;
 
 /**
- * We should not use constants on interfaces in the tests. Tests should break if the constant is changed.
+ * @todo Do not use constants on interfaces in the tests.
+ * Tests should break if the constant is changed.
  *
  * @author Tobias Nyholm <tobias.nyholm@gmail.com>
  */

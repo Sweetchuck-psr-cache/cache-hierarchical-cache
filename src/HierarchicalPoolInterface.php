@@ -23,5 +23,8 @@ use Psr\Cache\CacheItemPoolInterface;
  */
 interface HierarchicalPoolInterface extends CacheItemPoolInterface
 {
+
+    const TAG_SEPARATOR = '!';
+
     const HIERARCHY_SEPARATOR = '|';
 }
